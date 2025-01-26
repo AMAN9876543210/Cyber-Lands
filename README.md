@@ -1,49 +1,98 @@
-# Godot 2D adventure platformer demo
-![](Banner.png)
-Godot 2D adventure platformer demo of Sunny Land. [Watch full tutorial video on YouTube](https://youtu.be/vSwJulHbCW8)! <p></p>
-➡ Follow me on [Twitter](https://twitter.com/VenexSource) and [YouTube](https://www.youtube.com/@venex_source) for more godot game tutorials, and more!
+# **Sunny Land Adventure**  
+![Banner](Banner.png)  
 
-## What you'll learn
-- Build a platform game with connected levels, player, enemies, coins, level transition...
-- Basic AI enemy that chase the player and avoids danger like Spikes
-- Learn these two concept **Inheritance** and **Composition**(Components), and how to harness them and create better games.
-- Design a title screen, a health and coin counter and a lot more.
+**Sunny Land Adventure** is a 2D platformer game built using the Godot Engine. The game features connected levels, enemies with basic AI, collectibles, and a progression system where the player advances to the next level by reaching home.  
 
-Feel free to [ open an issue ](https://github.com/venex-source/godot-2D-adventure-platformer/issues) and submit a Pull Request if you find bugs!
+---
 
-## How to get started
-1. Download and Install the [Godot Engine](https://godotengine.org/) **(v.4.0 and above)**.
-2. Download the [project file]() for the tutorial.
-3. Open up the Godot Engine and import the **start** project file. <p></p>
+## **Table of Contents**
+1. [Features](#features)
+    - [Player Abilities](#player-abilities)
+    - [Enemies](#enemies)
+    - [Levels](#levels)
+    - [Interface & GUI](#interface--gui)
+2. [How to Get Started](#how-to-get-started)
+3. [Controls](#controls)
+4. [Development Details](#development-details)
+5. [Contribution](#contribution)
 
-We also recommend having a basic understanding of GDScript and a fundamentals of the godot engine. Checkout the [Your First 2D Game](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html) in the official Godot docs, if you haven't already.
+---
 
-## Features
-### Player
-A basic platformer character that has the ability to:
-- Jump
-- Stomp on enemies
-- Detect Hits
-- Collect coins and live(cherry)
-### Enemies
-- **Frog:** A basic AI enemy that jumps & chase the player once detected, returns to his idle state when player out of range.
-- **Opossum:** Basic Patrolling enemy that run's after player if detected and avoids danger(Spike).
+## **Features**
 
-### Interface & GUI
-- Coin and Health Counter
-- Main screen
-- Level Transition(Fade-In)
+### **Player Abilities**  
+The player controls a basic platformer character with the following abilities:  
+- **Jumping:** Navigate platforms and overcome obstacles.  
+- **Enemy Stomping:** Defeat enemies by stomping on them.  
+- **Hit Detection:** Detect collisions with enemies or obstacles.  
+- **Collectibles:** Pick up coins and cherries to earn points and gain extra lives.  
 
-### Keys
-**Move** - WASD or Arrow keys
-**Jump** - Space bar
+### **Enemies**  
+The game includes two types of enemies with simple AI mechanics:  
+- **Frog:**  
+  - Patrols and chases the player upon detection.  
+  - Returns to its idle state when the player moves out of range.  
+- **Opossum:**  
+  - Patrols the area and pursues the player when detected.  
+  - Avoids environmental hazards like spikes.  
 
-## Other Links
-1. [Introduction to Inheritance in Godot in 5 Minutes](https://youtu.be/1M2k1BoNnXA)
-2. [Godot Parallax Background](https://youtu.be/mIlZ0ChAqSw) <p></p>
-**Check out my YouTube Channel** [Venex Source](https://www.youtube.com/@venex_source)
+### **Levels**  
+- Multiple interconnected levels with increasing difficulty.  
+- Earn points for defeating enemies (Frog and Opossum).  
+- Progression system: Reach the "home" to advance to the next level.  
 
-## Credits
-Special thanks to the author's for providing the asset used in this tutorial video. Your creative contribution is greatly appreciated.
-- Sprites by [**ansimuz**](https://ansimuz.itch.io/sunny-land-pixel-game-art)
-- Font by [**Kenny**](https://www.kenney.nl)
+### **Interface & GUI**  
+- **Coin and Health Counter:** Displays the player’s current stats.  
+- **Main Title Screen:** A polished and intuitive start menu.  
+- **Level Transitions:** Smooth fade-in effects between levels for a better user experience.  
+
+---
+
+## **How to Get Started**
+
+Follow these steps to set up and play the game:  
+
+1. **Download the Godot Engine:**  
+   Download and install the [Godot Engine](https://godotengine.org/) (version 4.0 or higher).  
+
+2. **Download the Project Files:**  
+   Clone this repository.  
+
+3. **Open the Project in Godot:**  
+   Open the Godot Engine, click on "Import Project," and select the project file where you cloned it.  
+
+4. **Run the Game:**  
+   Use the play button in Godot to launch the game and start playing!  
+
+---
+
+## **Controls**
+
+- **Move:** `W`, `A`, `S`, `D` or Arrow Keys  
+- **Jump:** `Spacebar`  
+
+---
+
+## **Development Details**
+
+- **Engine:** The game was developed using the Godot Engine (version 4.0+).  
+- **Programming Language:** GDScript was used for all game logic.  
+- **Design Concepts:** This project focuses on showcasing the use of **Inheritance** and **Composition (Components)** to build better and modular game mechanics.  
+
+### **Key Features Implemented**
+- Basic AI for enemies (chase and patrol behavior).  
+- Level transition mechanics.  
+- Coin and health counters for an interactive UI.  
+- Polished gameplay with smooth player-enemy interactions.  
+
+---
+
+
+---
+
+## **Contribution**
+
+It’s just me only. I developed the game as a solo effort and I already informed about it. 
+
+---
+
