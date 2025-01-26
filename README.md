@@ -5,6 +5,13 @@
 
 ---
 
+# Gameplay Video  
+Click the thumbnail to watch the video on YouTube :
+
+[![Gameplay Video](https://img.youtube.com/vi/6rqgPmWW3Zo/0.jpg)](https://youtu.be/6rqgPmWW3Zo)
+
+
+
 ## **Table of Contents**
 1. [Features](#features)
     - [Player Abilities](#player-abilities)
