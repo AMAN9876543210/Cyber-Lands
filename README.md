@@ -4,6 +4,10 @@
 
 ---
 
+## Gameplay Video Drive Link:  
+For viewing gameplay video, please click [here](https://drive.google.com/file/d/1gR-k-vKKm7FOPdOY1eavmYLWfuGQ2nKm/view?usp=sharing).
+
+
 ## Screenshots
 
 Below are some snapshots from **Cyber Land Adventure** that showcase the game's cyber aesthetic and dynamic gameplay:
@@ -30,8 +34,7 @@ Below are some snapshots from **Cyber Land Adventure** that showcase the game's 
 
 
 
-## Gameplay Video Drive Link:  
-For viewing gameplay video, please click [here](https://drive.google.com/file/d/1gR-k-vKKm7FOPdOY1eavmYLWfuGQ2nKm/view?usp=sharing).
+
 
 ## Table of Contents
 1. [Features](#features)
